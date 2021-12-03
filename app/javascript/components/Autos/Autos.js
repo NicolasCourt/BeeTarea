@@ -1,6 +1,5 @@
 import React, { useState, useEffect} from "react"
 import axios from 'axios'
-import "./autos.css"
 import 'leaflet/dist/leaflet.css'
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
 import WaypointForm from "./Crear_waypoint"
@@ -41,7 +40,7 @@ const Autos = () => {
     /* Para mostrar los puntos se ocupa react-leaflet lo que permite poner marcadores en un mapa (Markers)   */ 
     
     return (     
-        <div class="main">
+        <><link href="./autos.css" rel="stylesheet"/><div class="main">
 
             <div id="header"> 
                 <h1 align="center"> BeeMap</h1>
@@ -78,7 +77,7 @@ const Autos = () => {
                         /> 
                 </div>
             </div>
-        </div>
+        </div></>
 
 
         )

@@ -1,11 +1,10 @@
 import React from "react";
-import "./autos.css"
 
 const WaypointForm = (props) => {
     const refreshPage = ()=>{
         window.location.reload();
      }
-    return (
+    return (<><link href="./autos.css" rel="stylesheet"/>
         <div align="center">
             <form onSubmit={props.handleSubmit}>
                 <h2 id="subtitle">Add a New Waypoint!</h2>
@@ -20,7 +19,7 @@ const WaypointForm = (props) => {
                 </div>
                 <button type="submit" onClick={refreshPage}> Crear Waypoint</button>
             </form>
-        </div>
+        </div></>
     )
 }
 
