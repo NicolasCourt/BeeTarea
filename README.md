@@ -17,5 +17,5 @@ Informacion para uso:
 1) Si uno hace click sobre una de las marcas, se desplegara el numero de patente de dicho punto
 2) En caso que no se ingresen datos, o se ingresen datos incorrectos nada cambiara, solo se refrescara la pagina
 3) Pude que se ingrese una latitud o longitud que no exista, en ese caso al igual que el punto anterior, no ocurriran cambios, se asume error de tipeo
-4) Las patentes son alfanumericas de cualquier longitud, debe ser minimo 1
+4) Las patentes son alfanumericas de cualquier longitud, debe ser minimo 1 y maximo 8
 
