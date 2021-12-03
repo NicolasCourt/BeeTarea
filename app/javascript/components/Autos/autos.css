@@ -1,0 +1,85 @@
+#map { height: 400px; }
+
+#header {
+  padding: 6px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(236, 223, 32);
+
+
+}
+
+.main {
+  background-color: rgb(112, 112, 95);
+
+
+}
+div.lower_div {
+  background: rgb(107, 104, 104);
+}
+
+#content { 
+    overflow:auto; 
+    width: 600px; 
+    background: gray; 
+  } 
+  
+  #left, #right { 
+    width: 35%; 
+    margin:5px; 
+    padding: 1em;  
+  } 
+  #left {
+    width:51%;
+    background: black;
+
+  }
+  #right {
+    background: lightblue;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  
+  
+  #left  { float:left;  }
+  #right { float:right; } 
+
+  #div_in {
+  border-radius: 4px;
+  width: 96%;
+  min-height:50px;
+  max-width: 310px;
+  border: 1px solid #E6E6E6;
+  background-color: lightseagreen;
+  margin: 8px 0;
+  padding: 2px;
+  }
+  
+  #valor_in {
+    width: 100%;
+    min-height:40px;
+    max-width: 300px;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+    margin: 4px 0;
+    padding: 2px;      
+  }
+
+  button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px; 
+    max-width: 250px;
+    border: none;
+    background: #8ebf42; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    }
+    button:hover {
+    background: #82b534;
+    }
