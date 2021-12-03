@@ -40,7 +40,7 @@ const Autos = () => {
     /* Para mostrar los puntos se ocupa react-leaflet lo que permite poner marcadores en un mapa (Markers)   */ 
     
     return (     
-        <><link href="./autos.css" rel="stylesheet"/><div class="main">
+        <><link href="./autos.scss" rel="stylesheet"/><div class="main">
 
             <div id="header"> 
                 <h1 align="center"> BeeMap</h1>

@@ -4,7 +4,7 @@ const WaypointForm = (props) => {
     const refreshPage = ()=>{
         window.location.reload();
      }
-    return (<><link href="./autos.css" rel="stylesheet"/>
+    return (<><link href="./autos.scss" rel="stylesheet"/>
         <div align="center">
             <form onSubmit={props.handleSubmit}>
                 <h2 id="subtitle">Add a New Waypoint!</h2>
