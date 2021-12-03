@@ -18,4 +18,5 @@ Informacion para uso:
 2) En caso que no se ingresen datos, o se ingresen datos incorrectos nada cambiara, solo se refrescara la pagina
 3) Pude que se ingrese una latitud o longitud que no exista, en ese caso al igual que el punto anterior, no ocurriran cambios, se asume error de tipeo
 4) Las patentes son alfanumericas de cualquier longitud, debe ser minimo 1 y maximo 8
+5) Heroku no esta mostrando los css ni scss, por lo que el front no se ve como deberia, en el siguiente link hay una imagen de como se deberia ver: https://ibb.co/72vxM7Z
 
